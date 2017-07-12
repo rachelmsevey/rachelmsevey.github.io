@@ -1,0 +1,48 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+header h1{ 
+  font-size: 30px;
+  font-weight: 700;
+}
+
+header nav{
+  display: flex;
+  justify-content: flex-end;
+}
+
+header .row{
+  display: flex;
+  align-items: center;
+}
+
+a{
+  padding: 10px 15px;
+  margin: 15px;
+  border: solid Black 1px;
+  text-decoration: none;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:active{
+  background-color: Gainsboro;  
+  transform: translate(3px,3px);
+  text-decoration: none;
+}
+
+.jumbotron{
+  display: flex;
+  align-items: center;
+  background-image: url("http://www.azchamber.com/assets/images/Grand-Canyon-Arizona.jpg");
+  background-size: cover;
+  
+}
+
+figure p{
+  margin: 10px;
+}
