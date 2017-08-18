@@ -1,48 +1,111 @@
-* {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
+body {
+    background-image: url('space_194.jpg');
+    
 }
 
-header h1{ 
-  font-size: 30px;
-  font-weight: 700;
+div {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+	margin: 30px;
+	display: inline-block;
 }
 
-header nav{
-  display: flex;
-  justify-content: flex-end;
+p{
+	font-size: 8em;
+	display: block;
+	position: fixed;
+	color: white;
+	text-align: center;
+	margin: auto;
 }
 
-header .row{
-  display: flex;
-  align-items: center;
+#done{
+	visibility: hidden;
 }
 
-a{
-  padding: 10px 15px;
-  margin: 15px;
-  border: solid Black 1px;
-  text-decoration: none;
+
+#a{
+	height: 200px;
+	width: 200px;
+	background-image: url('1.jpg');
+	
 }
 
-a:link{
-  text-decoration: none;
+#b{
+	background-image: url('2.JPG');
+	height: 173px;
+	width: 173px;
+	margin-bottom: 70px;
+	
 }
 
-a:active{
-  background-color: Gainsboro;  
-  transform: translate(3px,3px);
-  text-decoration: none;
+#c{
+	background-image: url('3.jpg');
+	height: 100px;
+	width: 100px;
+	
 }
 
-.jumbotron{
-  display: flex;
-  align-items: center;
-  background-image: url("http://www.azchamber.com/assets/images/Grand-Canyon-Arizona.jpg");
-  background-size: cover;
-  
+#d{
+	background-image: url('4.jpg');
+    height: 73px;
+	width: 73px;
+	margin-bottom: 120px;
 }
 
-figure p{
-  margin: 10px;
+#e{
+	background-image: url('5.jpg');
+	height: 173px;
+	width: 173px;
+	margin-bottom: 70px;
 }
+
+#f{
+	background-image: url('6.jpg');
+	height: 200px;
+	width: 200px;
+	margin-bottom: 40px;
+}
+
+#g{
+	background-image: url('7.jpg');
+	height: 90px;
+	width: 90px;
+	margin-top: 90px;
+}
+
+#h{
+	background-image: url('8.jpg');
+	height: 170px;
+	width: 170px;
+	margin-bottom: 60px;
+}
+
+#i{
+	background-image: url('9.jpg');
+	height: 120px;
+	width: 120px;
+	margin-top: 50px;
+}
+
+#j{
+	background-image: url('10.jpg');
+	margin-bottom: 90px;
+}
+
+#k{
+	background-image: url('11.jpg');
+	height: 230px;
+	width: 230px;
+	margin-top: 20px;
+}
+
+#l{
+	background-image: url('12.jpg');
+	height: 140px;
+	width: 140px;
+	margin-top: 60px;	
+	
+}
+
